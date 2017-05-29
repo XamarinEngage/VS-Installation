@@ -6,9 +6,11 @@ Installing Visual Studio is not enough....
 There is another 2 hours plus of downloading and installing to get to your first successful Xamarin hello world app.
 
 Step 1
-Install VS 2015 + the Xamarin extension:  
+Install VS 2015 + the Xamarin extension:   (if you have a better Internet)
  https://aka.ms/xamarindevdays/
-
+ 
+(No Internet )
+Install the Visual Studio ISO From the Folder and make sure your Internet is Disconnected during this Process
 
 ![Alt text](./images/xamarin1.png?raw=true "Xamarin1")
 
@@ -16,8 +18,12 @@ Install VS 2015 + the Xamarin extension:
 Figure: You need "C#/.NET (Xamarin v4.1.0)
 Note: Xamarin Studio doesn't exist on the PC anymore.
 
+step 2 :
 
-Step 2 - Android SDK Manager (about 2 hours)
+install Xamarin.Visualstudio MSI File
+
+
+Step 3 - Android SDK Manager (about 2 hours)
 This one is painful... 
 but if you have the Xamarin Engage Folder its called Android SDK
 
@@ -39,7 +45,7 @@ Then get all the ones that say "Installed" :
 ![Alt text](./images/xamarin3.png "Xamarin3")
 
 
-Step 3;
+Step 4;
 Android Native Development Kit (NDK)
 
 Extract NDK to "C:\Program Files (x86)\Android\android-ndk-r10e"
@@ -53,6 +59,7 @@ Step 4 -
 Install the Java Development Kit
 but if you have the Xamarin Engage Folder its called JDK
 install the file.
+
 Manually Identify your Java Path on Visual Studio
 on Visual studio tools>> Options >> Xamarin
 ![Alt text](./images/jdk.png "Options")
@@ -62,7 +69,8 @@ on Visual studio tools>> Options >> Xamarin
 
 
 
-Step 3 - "Manage NuGet Packages for Solution" (about 30 minutes)  
+Step 3 - 
+"Manage NuGet Packages for Solution" (about 30 minutes)  (This step needs internet)
 Create a Blank App (xamarin.Forms Portable) project (this way it will trigger grabbing all extra stuff).
 Check and ensure Nuget Packages are up to date .
 
@@ -70,5 +78,6 @@ Check and ensure Nuget Packages are up to date .
 ![Alt text](xamarin-5.png"Xamarin5")
 
 
-Step 4 - run the app
-Actually run the application you’ve created. Ensure it builds. It won't =D well first time it often won't, if it does then congratulations you have got everything!
+Step 4 
+Run the app on an Emulator ( Make sure you have installed the Android Emulator in the XE Folder)
+Actually run the application you’ve created. Ensure it builds. It won't always run well the first time it often won't, if it does then congratulations you have got everything!
